@@ -1,0 +1,120 @@
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    color: #333;
+    display: grid;
+    justify-content: center;
+    background: #EAEAEA;
+    gap: 10px;
+}
+#header {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+#openPopup {
+    background: #38c9f5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    height: 50px;
+    padding: 0 16px;
+    font-size: 16px;
+}
+#sheet {
+    background: white;
+    display: grid;
+    width: 894px;
+    gap: 8px;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    padding: 10px 2px;
+}
+#sheet form {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin: 0 10px;
+}
+#sheet h3 {
+    padding: 0 4px;
+    margin: auto 0;
+}
+#sheet p {
+    margin: auto;
+    font-size: 14px;
+}
+#sheet form div {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+select {
+    background: white;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 4px;
+    height: 100%;
+    border: 0;
+    outline: none;
+}
+#sheet table {
+    border-collapse: collapse;
+    border: 1px solid #EAEAEA;
+    margin: 0 10px;
+}
+#sheet table td, table th {
+    border: 1px solid #EAEAEA;
+    padding: 0 5px;
+}
+#inputs {
+    position: fixed;
+    bottom: 0;
+    right: -500px;
+    width: 400px;
+    height: 400px;
+    background: #EAEAEA;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.2);
+    transition: right 0.2s ease;
+    padding: 20px;
+    z-index: 1;
+    border-radius: 8px;
+}
+#inputs.show {
+    right: 0;
+}
+#inputs h2 {
+    margin: 0 0 20px;
+}
+table tr {
+    height: 30px;
+}
+#add {
+    display: grid;
+    gap: 10px;
+    background: white;
+    border-radius: 6px;
+    justify-content: center;
+}
+.add {
+    border-radius: 6px;
+    height: 40px;
+    padding: 0 10px;
+    border: none;
+    border-bottom: 1px solid #EAEAEA;
+    outline: none;
+}
+#closePopup {
+    height: 40px;
+    background: #b0ef3c;
+    color: #70af10;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 8px 0;
+    border: none;
+    width: 390px;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.2);
+    margin-bottom: 5px;
+}
